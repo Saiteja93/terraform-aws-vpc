@@ -13,7 +13,7 @@ variable "vpc_cidr" {
 }
 
 
-variable "able_dns_hostnamesidr" {
+variable "enable_dns_hostnames" {
     default true
 }
 
