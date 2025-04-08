@@ -9,12 +9,12 @@ variable "environment" {
 }
 
 variable "vpc_cidr" {
-    default "10.0.0.0/16"
+    default = "10.0.0.0/16"
 }
 
 
 variable "enable_dns_hostnames" {
-    default true
+    default = true
 }
 
 variable "common_tags" {
